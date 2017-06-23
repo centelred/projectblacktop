@@ -1,0 +1,161 @@
+
+@-ms-viewport{
+  width: device-width;
+}
+
+.container {
+	background-color:#212121;
+	box-shadow:0 1.5px 0 1.5px #f0ad4e;
+}
+
+.navbar-brand {
+	font-family: 'Ceviche One', cursive;
+	font-size:2em;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color:#f0ad4e;
+	font-family: 'Ceviche One', cursive;
+	font-size:2em;
+}
+
+.navbar-inverse .navbar-header .navbar-brand {
+    color: #f0ad4e;
+}
+
+.navbar-inverse .navbar-header .navbar-toggle .icon-bar{
+	color: #f0ad4e;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #f0ad4e;
+}
+
+.jumbotron{
+	background-image:url('../images/tatteredbannersmall.png');
+	height:30em;
+}
+
+.jumbotron img {
+	opacity:.5;
+}
+
+.jumbotron h1 {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #f0ad4e;
+	text-align:center;
+	border-radius:.1em;
+	background-color:black;
+	opacity:.9;
+	color:antiquewhite;
+	margin-top:1em;
+	margin-left:1.5em;
+	font-family: 'Ceviche One', cursive;
+	padding:.6em;
+	padding-bottom:1em;
+	width:65%;
+	box-shadow:1.5px 1.5px .75px 0px #212129;
+}
+
+.jumbotron h2 {
+	text-align:center;
+	border-radius:.1em;
+	background-color:black;
+	opacity:.95;
+	color:antiquewhite;
+	margin-top:7.5em;
+	font-family: 'Roboto Mono', monospace;
+	padding:.6em;
+	width:55%;
+	box-shadow:2.5px 2.5px 1.5px 0px #212129;
+}
+
+.jumbotron h4 {
+	width:64.5%;
+	margin-top:-2.85em;
+	margin-left:5.95em;
+	border-radius:.3em;
+	background-color:antiquewhite;
+	opacity:.7;
+	font-size:.65em;
+	color:#f0ad4e;
+	padding:.3em;
+	text-align:center;
+	box-shadow:2.5px 2.5px 1.5px 0px #212120;
+}
+
+body {
+	background-color:#212127;
+	background-image:url('../images/concrete_wall.png');
+	opacity:.7;
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size:1em;
+}
+
+img {
+	border-radius:3px;
+}
+
+.row {
+	margin:0 auto;
+}
+
+.feature1, .feature2, .feature3 {
+	margin:0 auto;
+	margin-left:1em;
+	padding-left:.5em;
+	width:7.5em;
+}
+
+.feature1 {
+	margin-top:3.5em;
+}
+
+.feature2 {
+	margin-top:5.5em;
+	margin-left:8.5em;
+}
+
+.feature3 {
+	margin-top:7.5em;
+	margin-left:14em;
+}
+
+.feature img {
+	margin-left:2.5em;
+}
+
+.title1, .title2, .title3{
+	color:#f0ad4e;
+	text-align:center;
+	font-size:.75em;
+}
+
+.slogan {
+	background-image:url('../images/chainlinkbannersmall.png');
+	font-family: 'Ceviche One', cursive;
+	font-size:2.0em;
+	background-color:aqua;
+	border-radius:3px;
+	margin-top:2rem;
+	padding:.5rem;
+	text-align:center;
+	height:7em;
+}
+
+.slogan h2 {
+	-webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: #f0ad4e;
+	margin-top:2.75em;
+	color:#212129;
+	font-size:1em;
+}
+
+.footer {
+	text-align:center;
+	background-color:#212121;
+	padding-top:1.5rem;
+}
