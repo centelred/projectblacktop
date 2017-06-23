@@ -49,11 +49,11 @@
 	opacity:.9;
 	color:antiquewhite;
 	margin-top:1em;
-	margin-left:1.5em;
+	margin-left:1em;
 	font-family: 'Ceviche One', cursive;
 	padding:.6em;
 	padding-bottom:1em;
-	width:65%;
+	width:80%;
 	box-shadow:1.5px 1.5px .75px 0px #212129;
 }
 
@@ -71,9 +71,9 @@
 }
 
 .jumbotron h4 {
-	width:64.5%;
+	width:79.5%;
 	margin-top:-2.85em;
-	margin-left:5.95em;
+	margin-left:3.95em;
 	border-radius:.3em;
 	background-color:antiquewhite;
 	opacity:.7;
@@ -105,23 +105,23 @@ img {
 
 .feature1, .feature2, .feature3 {
 	margin:0 auto;
-	margin-left:1em;
+	margin-left:.25em;
 	padding-left:.5em;
 	width:7.5em;
 }
 
 .feature1 {
-	margin-top:3.5em;
+	margin-top:.25em;
 }
 
 .feature2 {
-	margin-top:5.5em;
-	margin-left:8.5em;
+	margin-top:3em;
+	margin-left:6em;
 }
 
 .feature3 {
-	margin-top:7.5em;
-	margin-left:14em;
+	margin-top:5em;
+	margin-left:12em;
 }
 
 .feature img {
