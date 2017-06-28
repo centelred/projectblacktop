@@ -1,0 +1,133 @@
+<!--user profile photo for profile page-->
+<div class="side-bar">
+
+<div class="profilePic"><img src="{{profilePic}}"></div>
+
+
+<!--user profile page stats to be displayed under profile pic-->
+
+<div class="stats">
+<h3>{{userName}} Stats</h3><br>
+	<em>User Rating:</em>{{userRating}}<br>
+	<em>Home Court:</em>{{homeCourt}}<br>
+	<em>Play Style:</em>{{playStyle}}<br>
+
+
+<!--dynamically driven full info of player-->
+<!-- Secondary, outline button -->
+<button type="button" class="btn btn-secondary">Full Stats</button>
+</div><!--end stats div-->
+</div><!--end side-bar div-->
+
+
+<!--full stats modal to be dynamically displayed onClick of full stats button-->
+
+<!-- Large modal -->
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    <h2>{{userName}} Full Stats</h2><br>
+    	<em>Age:</em>{{userAge}}<br>
+    	<em>Height:</em>{{userHeight}}<br>
+    	<em>Location:</em>{{location}}
+    	<em>User Rating:</em>{{userRating}}<br>
+		<em>Home Court:</em>{{homeCourt}}<br>
+		<em>Play Style:</em>{{playStyle}}<br>
+		<em>Courts Visited:</em>{{courtCount}}<br>
+	    <em>Games Played:</em>{{gamesPlayed}}<br>
+		<em>Games Rejected:</em>{{gamesRejected}}<br>
+		<em>Game Ratio:</em>{{playRatio}}<br>
+    </div>
+  </div>
+</div><!--end full stats modal-->
+
+
+
+<!--create game button-->
+<button type="button" class="btn btn-warning">Create Game</button>
+
+<!--Create a game modal-->
+
+<!-- use this script to launch modal on page...
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+
+-->
+
+<div class="createGame">
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Create Game</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+
+      <!-- use this script to launch dropdown on modal
+
+      $('.dropdown-toggle').dropdown()
+
+      -->
+
+      <div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Half Court
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    <li>1 on 1</li>
+    <li>2 on 2</li>
+    <li>3 on 3</li>
+  </ul>
+</div><!--end dropdown 1-->
+
+<div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Full Court
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    <li>4 on 4</li>
+    <li>5 on 5</li>
+  </ul>
+</div><!--end dropdown 2-->
+
+<div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Location Radius
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    <li>1-5 miles</li>
+    <li>5-10 miles</li>
+    <li>15+ miles</li>
+  </ul>
+</div><!--end dropdown 3-->
+
+<div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Game Length
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    <li>Score to 11 (15-25 mins per game)</li>
+    <li>Score to 15 (25-35 mins per game)</li>
+    <li>Score to 21 (30-40 mins per game)</li>
+    <li>1 hour or more</li>
+  </ul>
+</div><!--end dropdown 4-->
+
+    </div>
+  </div>
+</div><!--end create game modal-->
+
+
+
+<!--find game button-->
+<button type="button" class="btn btn-warning">Find Game</button>
+
+
+<!--find game modal-->

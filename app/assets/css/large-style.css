@@ -160,3 +160,23 @@ img {
 	padding-top:1.5rem;
 	padding-top:5em;
 }
+
+.card {
+	background-color:antiquewhite;
+	opacity:.5;
+	border-radius:5px;
+}
+
+.card-title {
+	color:#f0ad4e;
+	background-color:#212129;
+	border-radius:5px;
+	padding:.20em;
+	line-height:3.5em;
+}
+
+.card-block p {
+	color:#000000;
+	line-height:1.5em;
+	padding:.20em;
+}
